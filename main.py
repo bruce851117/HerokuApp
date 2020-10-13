@@ -6,9 +6,9 @@ from bokeh.plotting import figure
 import pandas as pd
 import numpy as np
 import json
-from module.value_transform import value_transfrom
-from module.app_matrix import Persistence_EM_Matrix
-from module.app_map import Market_map
+from value_transform import value_transfrom
+from app_matrix import Persistence_EM_Matrix
+from app_map import Market_map
 matrix_tab = Persistence_EM_Matrix()
 map_tab = Market_map()
 
